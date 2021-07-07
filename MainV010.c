@@ -70,7 +70,7 @@ void main(void)
     Lcd_Clear(); 
     Lcd_Set_Cursor(1,1);
     Lcd_Write_String((char*)("Hola Mundo"));
-    __delay_ms(500);
+    __delay_ms(5000);
     Lcd_Set_Cursor(2,1);
     Lcd_Write_String((char*)("Soy Matias"));
     __delay_ms(500);
